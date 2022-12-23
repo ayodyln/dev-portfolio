@@ -1,13 +1,20 @@
+<script>
+	import TextureImage from '../content/lilzidesigns.jpg'
+</script>
+
 <div class="hero h-full bg-base-200">
-	<div class="hero-content flex-col lg:flex-row">
-		<img src="https://placeimg.com/260/400/arch" class="max-w-sm rounded-lg shadow-2xl" />
-		<div>
-			<h1 class="text-5xl font-bold">Box Office News!</h1>
+	<div class="hero-content flex-col lg:flex-row max-w-5xl">
+		<img src={TextureImage} class="max-w-sm rounded-lg shadow-2xl" alt="Unsplash - Lilzidesings" />
+
+		<div class="antialiased">
+			<h1 class="text-5xl font-bold">Dylan Smith</h1>
+			<h3 class="font-mono italic">JavaScript Web Developer // UX/UI Designer</h3>
 			<p class="py-6">
-				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-				quasi. In deleniti eaque aut repudiandae et a id nisi.
+				I love to build JavaScript applications from the ground-up and designing an amazing user
+				interfaces that easy to use!
 			</p>
-			<button class="btn btn-primary">Get Started</button>
+
+			<a href="/code" class="btn btn-primary">View My Work!</a>
 		</div>
 	</div>
 </div>
