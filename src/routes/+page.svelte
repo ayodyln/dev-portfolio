@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import TextureImage from '../content/lilzidesigns.jpg'
 </script>
 
@@ -11,7 +11,7 @@
 			<h3 class="font-mono italic">JavaScript Web Developer // UX/UI Designer</h3>
 			<p class="py-6">
 				I love to build JavaScript applications from the ground-up and designing an amazing user
-				interfaces that easy to use!
+				interfaces that are easy to use!
 			</p>
 
 			<a href="/code" class="btn btn-primary">View My Work!</a>
