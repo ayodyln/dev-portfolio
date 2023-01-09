@@ -1,6 +1,8 @@
-<script></script>
+<script lang="ts">
+	export let modalHandler: any
+</script>
 
-<div class="navbar bg-base-100 border-b border-primary">
+<div class="navbar bg-base-200 border-b border-primary">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
@@ -49,6 +51,6 @@
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<button class="btn">Contact Me!</button>
+		<button on:click={modalHandler} class="btn btn-outline btn-primary">Contact Me</button>
 	</div>
 </div>
